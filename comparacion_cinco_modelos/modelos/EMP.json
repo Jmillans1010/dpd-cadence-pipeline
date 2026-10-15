@@ -1,0 +1,4744 @@
+{
+  "model_name": "EMP",
+  "best_config": {
+    "P": 11,
+    "M": 8
+  },
+  "model": {
+    "model_name": "EMP",
+    "config": {
+      "P": 11,
+      "M": 8
+    },
+    "coefficients": {
+      "__ndarray__": true,
+      "dtype": "complex128",
+      "values": [
+        {
+          "__complex__": [
+            0.6629882398421062,
+            0.28524939682064204
+          ]
+        },
+        {
+          "__complex__": [
+            17.481954044854774,
+            50.36211846760173
+          ]
+        },
+        {
+          "__complex__": [
+            -53.98922704150067,
+            2.118760149879787
+          ]
+        },
+        {
+          "__complex__": [
+            18.700858606204367,
+            4.463003761438506
+          ]
+        },
+        {
+          "__complex__": [
+            -6.602116126710696,
+            -5.6316289765731256
+          ]
+        },
+        {
+          "__complex__": [
+            7.16041817083932,
+            -0.018584488022072434
+          ]
+        },
+        {
+          "__complex__": [
+            -7.5639303905298725,
+            1.7171928089175876
+          ]
+        },
+        {
+          "__complex__": [
+            6.347374712059352,
+            -3.165010935590474
+          ]
+        },
+        {
+          "__complex__": [
+            2.164209028421723,
+            -0.49028580187651843
+          ]
+        },
+        {
+          "__complex__": [
+            -4.669588128166684,
+            0.1818539676218526
+          ]
+        },
+        {
+          "__complex__": [
+            -195.96781373845195,
+            -2722.286528399433
+          ]
+        },
+        {
+          "__complex__": [
+            2185.8962332477645,
+            -306.9411359937544
+          ]
+        },
+        {
+          "__complex__": [
+            -883.4913853329546,
+            -344.758764656857
+          ]
+        },
+        {
+          "__complex__": [
+            470.8390851513312,
+            380.7927396688815
+          ]
+        },
+        {
+          "__complex__": [
+            -560.9274926106576,
+            -60.44707557408196
+          ]
+        },
+        {
+          "__complex__": [
+            582.7915785735405,
+            -40.351684242737576
+          ]
+        },
+        {
+          "__complex__": [
+            -473.64478149543726,
+            145.57702200193714
+          ]
+        },
+        {
+          "__complex__": [
+            -43.379235671823494,
+            59.9260777665999
+          ]
+        },
+        {
+          "__complex__": [
+            191.45611778173944,
+            -8.524341731414202
+          ]
+        },
+        {
+          "__complex__": [
+            4562.7223251591295,
+            54535.069133745565
+          ]
+        },
+        {
+          "__complex__": [
+            -46571.89332946142,
+            8604.542895122659
+          ]
+        },
+        {
+          "__complex__": [
+            21847.548059238605,
+            9862.887375541504
+          ]
+        },
+        {
+          "__complex__": [
+            -15076.88113296578,
+            -10462.911146203214
+          ]
+        },
+        {
+          "__complex__": [
+            18093.813580820977,
+            1881.916423788428
+          ]
+        },
+        {
+          "__complex__": [
+            -17747.85554539664,
+            987.9496401443512
+          ]
+        },
+        {
+          "__complex__": [
+            12551.532302836393,
+            -3455.104942155122
+          ]
+        },
+        {
+          "__complex__": [
+            1100.6913200578892,
+            -1852.908836755348
+          ]
+        },
+        {
+          "__complex__": [
+            -4112.195662073685,
+            218.22905445364756
+          ]
+        },
+        {
+          "__complex__": [
+            -50193.976759793375,
+            -514130.99518865754
+          ]
+        },
+        {
+          "__complex__": [
+            461420.1415055736,
+            -77302.85072502999
+          ]
+        },
+        {
+          "__complex__": [
+            -256416.95434820844,
+            -127727.65799808578
+          ]
+        },
+        {
+          "__complex__": [
+            217826.99294398274,
+            130054.2114621489
+          ]
+        },
+        {
+          "__complex__": [
+            -255059.69846529418,
+            -24186.68345165644
+          ]
+        },
+        {
+          "__complex__": [
+            234998.59053490538,
+            -10641.214852188788
+          ]
+        },
+        {
+          "__complex__": [
+            -148953.92971561747,
+            37604.00926323797
+          ]
+        },
+        {
+          "__complex__": [
+            -12677.182299574777,
+            20922.159239242035
+          ]
+        },
+        {
+          "__complex__": [
+            40998.91992732435,
+            -2133.882010725962
+          ]
+        },
+        {
+          "__complex__": [
+            175189.88914451757,
+            1836983.612359153
+          ]
+        },
+        {
+          "__complex__": [
+            -1649362.6221632836,
+            212834.89189542833
+          ]
+        },
+        {
+          "__complex__": [
+            1034643.253603014,
+            616900.7457016124
+          ]
+        },
+        {
+          "__complex__": [
+            -1061195.0174703028,
+            -619746.9402312381
+          ]
+        },
+        {
+          "__complex__": [
+            1283981.3504678553,
+            125853.04345516923
+          ]
+        },
+        {
+          "__complex__": [
+            -1147043.2810182774,
+            35057.67867270823
+          ]
+        },
+        {
+          "__complex__": [
+            668851.1429006923,
+            -146981.2527205303
+          ]
+        },
+        {
+          "__complex__": [
+            52524.00680184518,
+            -87772.9041344059
+          ]
+        },
+        {
+          "__complex__": [
+            -157009.55799187068,
+            11846.351891613844
+          ]
+        }
+      ]
+    },
+    "diagnostics": {
+      "rank": 46,
+      "singular_values": [
+        22.083368687183928,
+        1.0635373565480553,
+        0.5939531313407407,
+        0.4916907320600132,
+        0.3133946967943632,
+        0.17920743670166736,
+        0.11382478279057863,
+        0.07030124612606141,
+        0.0466361047051538,
+        0.03260167275746528,
+        0.024754735241631354,
+        0.013042067323630223,
+        0.010831493431620345,
+        0.008001607619064639,
+        0.005427771647021182,
+        0.0036601773089108497,
+        0.0025053851145814005,
+        0.0022840977327295018,
+        0.002236386288865556,
+        0.00028933475125405514,
+        0.00028359626944792914,
+        0.0002103452669075545,
+        0.0001943780421505521,
+        0.00016416639055732383,
+        0.00012837702485654347,
+        9.184149623726018e-05,
+        7.443880477874699e-05,
+        5.64714262337803e-05,
+        7.222730114317159e-06,
+        6.274554635745305e-06,
+        5.455783698981565e-06,
+        4.8813620880098655e-06,
+        4.570156277871433e-06,
+        3.744671851060017e-06,
+        3.2410572557440242e-06,
+        2.502459172532773e-06,
+        1.8247744836714406e-06,
+        1.5453288516421833e-07,
+        1.3100393790561121e-07,
+        1.0993639036193612e-07,
+        1.0855948821222852e-07,
+        1.0199435961424968e-07,
+        8.781216847815715e-08,
+        7.866068310429582e-08,
+        6.913731299833516e-08,
+        5.954058195044634e-08
+      ],
+      "condition_number": 370896084.0450499,
+      "num_coefficients": 46,
+      "scaled_condition_number": 26594.12842423455,
+      "stable": true,
+      "reason": ""
+    },
+    "lut_values": null,
+    "lut_nodes": null,
+    "lut_edges": null,
+    "basis_terms": [
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 0,
+        "envelope_power": 0,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 0,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 1,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 2,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 3,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 4,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 5,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 6,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 7,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 8,
+        "envelope_power": 2,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 0,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 1,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 2,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 3,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 4,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 5,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 6,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 7,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 8,
+        "envelope_power": 4,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 0,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 1,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 2,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 3,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 4,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 5,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 6,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 7,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 8,
+        "envelope_power": 6,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 0,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 1,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 2,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 3,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 4,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 5,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 6,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 7,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 8,
+        "envelope_power": 8,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 0,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 1,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 2,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 3,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 4,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 5,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 6,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 7,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      },
+      {
+        "kind": "envelope",
+        "signal_delay": 0,
+        "envelope_delay": 8,
+        "envelope_power": 10,
+        "direct_delays": [],
+        "conjugate_delays": []
+      }
+    ]
+  },
+  "nmse_train_db": -23.636230096443835,
+  "nmse_validation_db": -23.42457658244019,
+  "nmse_test_db": -23.47933961672732,
+  "test_error_linear": 0.004488136308373015,
+  "progress_fraction": null,
+  "structural_complexity": 46.0,
+  "hardware": {
+    "num_parameters": 46,
+    "complex_multipliers": 46,
+    "real_multipliers": 144,
+    "complex_adders": 45,
+    "real_adders": 9,
+    "delay_elements": 8,
+    "num_luts": 0,
+    "lut_entries": 0,
+    "memory_bits": 1944,
+    "cycles_per_sample": 1,
+    "clock_multiplier": 1.0,
+    "assumptions": [
+      "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+      "Contadores reales excluyen los operadores ya contados como complejos.",
+      "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+      "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+      "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+      "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+      "Adelanto GMP causalizable con latencia de 0 muestras."
+    ],
+    "auxiliary_operations": {
+      "envelope_power_multiplies": 36
+    }
+  },
+  "optimization_trace": {
+    "baseline": "{\"M\":0,\"P\":1}",
+    "reference_candidates": [],
+    "reference_nmse_db": null,
+    "reference_error_linear": null,
+    "target_fraction": null,
+    "candidates": {
+      "{\"M\":0,\"P\":1}": {
+        "candidate_id": "{\"M\":0,\"P\":1}",
+        "model_name": "EMP",
+        "config": {
+          "P": 1,
+          "M": 0
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 1,
+            "M": 0
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.933750699051082,
+                  7.22567681699926e-05
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 1,
+            "singular_values": [
+              21.716444590987063
+            ],
+            "condition_number": 1.0,
+            "num_coefficients": 1,
+            "scaled_condition_number": 1.0,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -11.781341494308608,
+        "nmse_validation_db": -11.758070165693443,
+        "normalized_error_linear": 0.0667103137825862,
+        "train_error_linear": 0.06635380781481802,
+        "progress_fraction": null,
+        "structural_complexity": 1.0,
+        "hardware": {
+          "num_parameters": 1,
+          "complex_multipliers": 1,
+          "real_multipliers": 0,
+          "complex_adders": 0,
+          "real_adders": 0,
+          "delay_elements": 0,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 36,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -11.776482337104289,
+        "bic_num_coefficients": 1
+      },
+      "{\"M\":0,\"P\":3}": {
+        "candidate_id": "{\"M\":0,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 0
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 0
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.45238806992234715,
+                  0.6947562073600901
+                ]
+              },
+              {
+                "__complex__": [
+                  7.3817961806694425,
+                  -10.653123077986953
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 2,
+            "singular_values": [
+              21.76258277284973,
+              0.3929353420271281
+            ],
+            "condition_number": 55.384640792497734,
+            "num_coefficients": 2,
+            "scaled_condition_number": 7.329048781370702,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -21.41874175642172,
+        "nmse_validation_db": -21.389115696953148,
+        "normalized_error_linear": 0.007262538209501465,
+        "train_error_linear": 0.007213164296397171,
+        "progress_fraction": null,
+        "structural_complexity": 2.0,
+        "hardware": {
+          "num_parameters": 2,
+          "complex_multipliers": 2,
+          "real_multipliers": 4,
+          "complex_adders": 1,
+          "real_adders": 1,
+          "delay_elements": 0,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 72,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -21.409023442013083,
+        "bic_num_coefficients": 2
+      },
+      "{\"M\":1,\"P\":3}": {
+        "candidate_id": "{\"M\":1,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 1
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 1
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.46742703814339287,
+                  0.6892902383822158
+                ]
+              },
+              {
+                "__complex__": [
+                  10.909837651814302,
+                  -11.935402882724139
+                ]
+              },
+              {
+                "__complex__": [
+                  -3.812090822074946,
+                  1.3855185986191072
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 3,
+            "singular_values": [
+              21.807372233520244,
+              0.5526329013853066,
+              0.14276025423624425
+            ],
+            "condition_number": 152.7552073242508,
+            "num_coefficients": 3,
+            "scaled_condition_number": 17.615201134123808,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.4404537047268,
+        "nmse_validation_db": -22.337860787373337,
+        "normalized_error_linear": 0.005837325637348387,
+        "train_error_linear": 0.005701047106873494,
+        "progress_fraction": null,
+        "structural_complexity": 3.0,
+        "hardware": {
+          "num_parameters": 3,
+          "complex_multipliers": 3,
+          "real_multipliers": 8,
+          "complex_adders": 2,
+          "real_adders": 2,
+          "delay_elements": 1,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 144,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.425876233113847,
+        "bic_num_coefficients": 3
+      },
+      "{\"M\":2,\"P\":3}": {
+        "candidate_id": "{\"M\":2,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 2
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 2
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.4554758325173587,
+                  0.6916468340733498
+                ]
+              },
+              {
+                "__complex__": [
+                  11.810712204142263,
+                  -12.11304162099868
+                ]
+              },
+              {
+                "__complex__": [
+                  -5.914524506159108,
+                  1.8000864937622958
+                ]
+              },
+              {
+                "__complex__": [
+                  1.4160804143773007,
+                  -0.2792294858982353
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 4,
+            "singular_values": [
+              21.84952193984058,
+              0.675458514438553,
+              0.24879945313463026,
+              0.07815811905550843
+            ],
+            "condition_number": 279.555370624041,
+            "num_coefficients": 4,
+            "scaled_condition_number": 36.86980628895391,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.541893955022474,
+        "nmse_validation_db": -22.497582609504555,
+        "normalized_error_linear": 0.005626544254112853,
+        "train_error_linear": 0.005569428136148581,
+        "progress_fraction": null,
+        "structural_complexity": 4.0,
+        "hardware": {
+          "num_parameters": 4,
+          "complex_multipliers": 4,
+          "real_multipliers": 12,
+          "complex_adders": 3,
+          "real_adders": 3,
+          "delay_elements": 2,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 216,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.522457326205203,
+        "bic_num_coefficients": 4
+      },
+      "{\"M\":3,\"P\":3}": {
+        "candidate_id": "{\"M\":3,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 3
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 3
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.45781382493523426,
+                  0.6946893586981904
+                ]
+              },
+              {
+                "__complex__": [
+                  12.019426754964334,
+                  -11.841432887119723
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.449750864130498,
+                  1.1035746652637468
+                ]
+              },
+              {
+                "__complex__": [
+                  2.0916989381616973,
+                  0.5999803780408055
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.38997544573706744,
+                  -0.5074909087238345
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 5,
+            "singular_values": [
+              21.889441853367817,
+              0.7696933550753741,
+              0.3399593403042351,
+              0.15622145994750783,
+              0.052848669772290136
+            ],
+            "condition_number": 414.1909710818302,
+            "num_coefficients": 5,
+            "scaled_condition_number": 60.276031957873684,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.561630571023947,
+        "nmse_validation_db": -22.530902993050795,
+        "normalized_error_linear": 0.0055835408866073966,
+        "train_error_linear": 0.005544175162379495,
+        "progress_fraction": null,
+        "structural_complexity": 5.0,
+        "hardware": {
+          "num_parameters": 5,
+          "complex_multipliers": 5,
+          "real_multipliers": 16,
+          "complex_adders": 4,
+          "real_adders": 4,
+          "delay_elements": 3,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 288,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.537334785002358,
+        "bic_num_coefficients": 5
+      },
+      "{\"M\":4,\"P\":3}": {
+        "candidate_id": "{\"M\":4,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 4
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 4
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.4563958619602229,
+                  0.6966249771986182
+                ]
+              },
+              {
+                "__complex__": [
+                  12.022104372515543,
+                  -11.845088022098915
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.60438409998904,
+                  1.3146598327775894
+                ]
+              },
+              {
+                "__complex__": [
+                  2.4578666563021345,
+                  0.10013586730091346
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.8510726832722383,
+                  0.1219390264701687
+                ]
+              },
+              {
+                "__complex__": [
+                  0.2729959154789625,
+                  -0.3726584923967087
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 6,
+            "singular_values": [
+              21.92818196829335,
+              0.8415554668430307,
+              0.41724880437824485,
+              0.2396226671809254,
+              0.09365147832407147,
+              0.045178208453738655
+            ],
+            "condition_number": 485.3707731847591,
+            "num_coefficients": 6,
+            "scaled_condition_number": 76.43335135895968,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.571986772439256,
+        "nmse_validation_db": -22.549821804172634,
+        "normalized_error_linear": 0.00555927067104625,
+        "train_error_linear": 0.005530970253376669,
+        "progress_fraction": null,
+        "structural_complexity": 6.0,
+        "hardware": {
+          "num_parameters": 6,
+          "complex_multipliers": 6,
+          "real_multipliers": 20,
+          "complex_adders": 5,
+          "real_adders": 5,
+          "delay_elements": 4,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 360,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.54283182921335,
+        "bic_num_coefficients": 6
+      },
+      "{\"M\":5,\"P\":3}": {
+        "candidate_id": "{\"M\":5,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 5
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 5
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.4576193080918414,
+                  0.6968690101104116
+                ]
+              },
+              {
+                "__complex__": [
+                  12.101919895492532,
+                  -11.829167734335513
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.731028972459699,
+                  1.2893987965995857
+                ]
+              },
+              {
+                "__complex__": [
+                  2.7170460402584093,
+                  0.15183270797819942
+                ]
+              },
+              {
+                "__complex__": [
+                  -1.3192975548921737,
+                  0.02854523017431581
+                ]
+              },
+              {
+                "__complex__": [
+                  0.8463099804966808,
+                  -0.25830323224881174
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.34072031149167903,
+                  -0.0679612837635357
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 7,
+            "singular_values": [
+              21.966636399949408,
+              0.8998986664215853,
+              0.4806339776005993,
+              0.31871556778318477,
+              0.14102834269004347,
+              0.07323596509784241,
+              0.03977831573470151
+            ],
+            "condition_number": 552.2264076351106,
+            "num_coefficients": 7,
+            "scaled_condition_number": 92.79627590711763,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.577456170491487,
+        "nmse_validation_db": -22.555307158635166,
+        "normalized_error_linear": 0.005552253469243624,
+        "train_error_linear": 0.00552400906955966,
+        "progress_fraction": null,
+        "structural_complexity": 7.0,
+        "hardware": {
+          "num_parameters": 7,
+          "complex_multipliers": 7,
+          "real_multipliers": 24,
+          "complex_adders": 6,
+          "real_adders": 6,
+          "delay_elements": 5,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 432,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.54344207006126,
+        "bic_num_coefficients": 7
+      },
+      "{\"M\":6,\"P\":3}": {
+        "candidate_id": "{\"M\":6,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 6
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 6
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.4584235927136023,
+                  0.6964309709211657
+                ]
+              },
+              {
+                "__complex__": [
+                  12.10737744843369,
+                  -11.832140092628736
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.670361759688256,
+                  1.2563574876186814
+                ]
+              },
+              {
+                "__complex__": [
+                  2.608463305322657,
+                  0.21097034643408688
+                ]
+              },
+              {
+                "__complex__": [
+                  -1.0995861258934652,
+                  -0.09111665769798798
+                ]
+              },
+              {
+                "__complex__": [
+                  0.45771677192423854,
+                  -0.04666291310816104
+                ]
+              },
+              {
+                "__complex__": [
+                  0.13276354405918805,
+                  -0.325835770723467
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.27801143807120043,
+                  0.15141394182953952
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 8,
+            "singular_values": [
+              22.005184615938113,
+              0.9526393930272196,
+              0.5300260090409897,
+              0.3878429452081235,
+              0.19309314651623385,
+              0.10644345999334508,
+              0.05996479305163646,
+              0.03634333492070104
+            ],
+            "condition_number": 605.4806105150255,
+            "num_coefficients": 8,
+            "scaled_condition_number": 107.56817856247277,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.58176491456307,
+        "nmse_validation_db": -22.55725374755896,
+        "normalized_error_linear": 0.005549765403252958,
+        "train_error_linear": 0.0055185312799093346,
+        "progress_fraction": null,
+        "structural_complexity": 8.0,
+        "hardware": {
+          "num_parameters": 8,
+          "complex_multipliers": 8,
+          "real_multipliers": 28,
+          "complex_adders": 7,
+          "real_adders": 7,
+          "delay_elements": 6,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 504,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.54289165692853,
+        "bic_num_coefficients": 8
+      },
+      "{\"M\":7,\"P\":3}": {
+        "candidate_id": "{\"M\":7,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 7
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 7
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.45924658708792565,
+                  0.6957346767438427
+                ]
+              },
+              {
+                "__complex__": [
+                  12.1123804786664,
+                  -11.836372905061836
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.667365501692291,
+                  1.2538225043169178
+                ]
+              },
+              {
+                "__complex__": [
+                  2.66517148074705,
+                  0.16299240929803221
+                ]
+              },
+              {
+                "__complex__": [
+                  -1.2110935620505727,
+                  0.0032241797934526918
+                ]
+              },
+              {
+                "__complex__": [
+                  0.7046281111940468,
+                  -0.25556218777203316
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.3120030682573654,
+                  0.05045890647687021
+                ]
+              },
+              {
+                "__complex__": [
+                  0.2660918213003397,
+                  -0.30892447989341154
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.31572255480552813,
+                  0.267116985752643
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 9,
+            "singular_values": [
+              22.043673637057346,
+              1.0048065183913362,
+              0.5660631729672609,
+              0.44466818388184565,
+              0.2501906668606004,
+              0.14170714791225125,
+              0.08535654032419393,
+              0.05125496472206471,
+              0.03419498625770176
+            ],
+            "condition_number": 644.6463663102785,
+            "num_coefficients": 9,
+            "scaled_condition_number": 120.37268968883848,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.588943588981763,
+        "nmse_validation_db": -22.564986310506296,
+        "normalized_error_linear": 0.0055398929017790016,
+        "train_error_linear": 0.005509416953668877,
+        "progress_fraction": null,
+        "structural_complexity": 9.0,
+        "hardware": {
+          "num_parameters": 9,
+          "complex_multipliers": 9,
+          "real_multipliers": 32,
+          "complex_adders": 8,
+          "real_adders": 8,
+          "delay_elements": 7,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 576,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.545211174142903,
+        "bic_num_coefficients": 9
+      },
+      "{\"M\":8,\"P\":3}": {
+        "candidate_id": "{\"M\":8,\"P\":3}",
+        "model_name": "EMP",
+        "config": {
+          "P": 3,
+          "M": 8
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 3,
+            "M": 8
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.46024724770279307,
+                  0.6946800195121157
+                ]
+              },
+              {
+                "__complex__": [
+                  12.09024788135675,
+                  -11.813046011345138
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.620720152055278,
+                  1.2046601263936363
+                ]
+              },
+              {
+                "__complex__": [
+                  2.629304852421343,
+                  0.20079443565872962
+                ]
+              },
+              {
+                "__complex__": [
+                  -1.1280025772304212,
+                  -0.08435047511930725
+                ]
+              },
+              {
+                "__complex__": [
+                  0.5740901186327332,
+                  -0.11798023858336343
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.032403008194474864,
+                  -0.24422864388248122
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.23320459615651978,
+                  0.21731445628731477
+                ]
+              },
+              {
+                "__complex__": [
+                  0.2957346043796003,
+                  -0.3773349945131189
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.35238426792064637,
+                  0.37139926463303435
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 10,
+            "singular_values": [
+              22.08164395096631,
+              1.0581474552089682,
+              0.5908084618532682,
+              0.48883051762252017,
+              0.3118827998582569,
+              0.17864540962959657,
+              0.11358634862567028,
+              0.07016147179547456,
+              0.046487809306744114,
+              0.03245942686844299
+            ],
+            "condition_number": 680.2844683753198,
+            "num_coefficients": 10,
+            "scaled_condition_number": 133.00341099430634,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -22.599925253464505,
+        "nmse_validation_db": -22.574590524538944,
+        "normalized_error_linear": 0.005527655231005679,
+        "train_error_linear": 0.005495503321011965,
+        "progress_fraction": null,
+        "structural_complexity": 10.0,
+        "hardware": {
+          "num_parameters": 10,
+          "complex_multipliers": 10,
+          "real_multipliers": 36,
+          "complex_adders": 9,
+          "real_adders": 9,
+          "delay_elements": 8,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 648,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 0
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -22.551333681421326,
+        "bic_num_coefficients": 10
+      },
+      "{\"M\":8,\"P\":5}": {
+        "candidate_id": "{\"M\":8,\"P\":5}",
+        "model_name": "EMP",
+        "config": {
+          "P": 5,
+          "M": 8
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 5,
+            "M": 8
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.44955604416473194,
+                  0.7338286502703564
+                ]
+              },
+              {
+                "__complex__": [
+                  15.975690079267567,
+                  -7.939313944337043
+                ]
+              },
+              {
+                "__complex__": [
+                  -14.423090941272102,
+                  -4.95404747650443
+                ]
+              },
+              {
+                "__complex__": [
+                  9.495479224793355,
+                  0.797026707008527
+                ]
+              },
+              {
+                "__complex__": [
+                  -4.456348601169716,
+                  -0.28993268017923873
+                ]
+              },
+              {
+                "__complex__": [
+                  2.0215060701077463,
+                  0.30957259213824073
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.48946676060608313,
+                  -0.3825613245056816
+                ]
+              },
+              {
+                "__complex__": [
+                  0.39490941595884094,
+                  0.04712807140117988
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.6104093019501166,
+                  0.14129709022726852
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.12171829372440396,
+                  -0.16356021850396968
+                ]
+              },
+              {
+                "__complex__": [
+                  -43.56820364859964,
+                  -47.73214915832345
+                ]
+              },
+              {
+                "__complex__": [
+                  102.16396119925795,
+                  80.09286998115383
+                ]
+              },
+              {
+                "__complex__": [
+                  -110.510877326932,
+                  -16.720677647763438
+                ]
+              },
+              {
+                "__complex__": [
+                  66.06552036191069,
+                  -2.9708132121205
+                ]
+              },
+              {
+                "__complex__": [
+                  -25.456815367492446,
+                  -1.4824185254702156
+                ]
+              },
+              {
+                "__complex__": [
+                  5.170932222616793,
+                  6.98230482998165
+                ]
+              },
+              {
+                "__complex__": [
+                  -8.12897778217015,
+                  -1.9894907617789646
+                ]
+              },
+              {
+                "__complex__": [
+                  12.935863261262632,
+                  -3.6175711629096146
+                ]
+              },
+              {
+                "__complex__": [
+                  -4.4108348859859206,
+                  4.070106411285931
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 19,
+            "singular_values": [
+              22.08335969192369,
+              1.0634961448974871,
+              0.5939282941930001,
+              0.4916660856165797,
+              0.31338329266560494,
+              0.1792045073962159,
+              0.11382340406644605,
+              0.07029988296576668,
+              0.04663443109122498,
+              0.0326004446240538,
+              0.024439215044327747,
+              0.012875912603736057,
+              0.01069799631121544,
+              0.007911829037537238,
+              0.00537233654912562,
+              0.003629640482113009,
+              0.0024904307400112134,
+              0.0022707028669467447,
+              0.0022240774050868314
+            ],
+            "condition_number": 9929.222625712311,
+            "num_coefficients": 19,
+            "scaled_condition_number": 332.3952090999279,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -23.150521640815683,
+        "nmse_validation_db": -23.049444416893984,
+        "normalized_error_linear": 0.004955135766812039,
+        "train_error_linear": 0.004841142160505499,
+        "progress_fraction": null,
+        "structural_complexity": 19.0,
+        "hardware": {
+          "num_parameters": 19,
+          "complex_multipliers": 19,
+          "real_multipliers": 63,
+          "complex_adders": 18,
+          "real_adders": 9,
+          "delay_elements": 8,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 972,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 9
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -23.058197653933643,
+        "bic_num_coefficients": 19
+      },
+      "{\"M\":8,\"P\":7}": {
+        "candidate_id": "{\"M\":8,\"P\":7}",
+        "model_name": "EMP",
+        "config": {
+          "P": 7,
+          "M": 8
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 7,
+            "M": 8
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.4703977803927279,
+                  0.7482106214860428
+                ]
+              },
+              {
+                "__complex__": [
+                  14.489602280003188,
+                  -4.807304081825826
+                ]
+              },
+              {
+                "__complex__": [
+                  -12.267208725003249,
+                  -7.8241215419834695
+                ]
+              },
+              {
+                "__complex__": [
+                  3.449502246135502,
+                  1.0996935688446656
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.9110862810311585,
+                  -2.3740812487647287
+                ]
+              },
+              {
+                "__complex__": [
+                  2.4475461002365244,
+                  -0.3606636275794208
+                ]
+              },
+              {
+                "__complex__": [
+                  -2.638621155108009,
+                  0.4458576803799353
+                ]
+              },
+              {
+                "__complex__": [
+                  0.8425376591219048,
+                  -0.3382074969518964
+                ]
+              },
+              {
+                "__complex__": [
+                  0.8757615144643855,
+                  -0.16350730900651195
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.3719789019885852,
+                  0.40089628983086273
+                ]
+              },
+              {
+                "__complex__": [
+                  1.6207485237491424,
+                  -123.15523809143886
+                ]
+              },
+              {
+                "__complex__": [
+                  23.430819417550232,
+                  159.63913270527001
+                ]
+              },
+              {
+                "__complex__": [
+                  62.198088734898604,
+                  -40.60206035416137
+                ]
+              },
+              {
+                "__complex__": [
+                  -48.90415476298483,
+                  56.55705731956164
+                ]
+              },
+              {
+                "__complex__": [
+                  -11.691871270152097,
+                  6.077303181623878
+                ]
+              },
+              {
+                "__complex__": [
+                  35.21159720639648,
+                  -9.536020163316666
+                ]
+              },
+              {
+                "__complex__": [
+                  -3.377273840683556,
+                  4.059492239615487
+                ]
+              },
+              {
+                "__complex__": [
+                  -26.83452749833211,
+                  5.54666101553898
+                ]
+              },
+              {
+                "__complex__": [
+                  3.4726589420469103,
+                  -8.279732623976635
+                ]
+              },
+              {
+                "__complex__": [
+                  -380.4420445026509,
+                  522.3112383394091
+                ]
+              },
+              {
+                "__complex__": [
+                  800.170206198199,
+                  -628.6937548023726
+                ]
+              },
+              {
+                "__complex__": [
+                  -1547.8604989185108,
+                  318.1020542246744
+                ]
+              },
+              {
+                "__complex__": [
+                  1097.0197702748114,
+                  -509.5343561581186
+                ]
+              },
+              {
+                "__complex__": [
+                  -183.4120601898109,
+                  -6.6150792910882155
+                ]
+              },
+              {
+                "__complex__": [
+                  -192.7378759492714,
+                  125.27371235269975
+                ]
+              },
+              {
+                "__complex__": [
+                  -120.15720200964215,
+                  -35.71433771190345
+                ]
+              },
+              {
+                "__complex__": [
+                  380.77103029969834,
+                  -94.55486857147966
+                ]
+              },
+              {
+                "__complex__": [
+                  -110.26076535665906,
+                  94.36526999136314
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 28,
+            "singular_values": [
+              22.083368637247613,
+              1.0635370600446468,
+              0.593952946314256,
+              0.4916905348144047,
+              0.313394613455633,
+              0.17920742022907843,
+              0.11382476777827406,
+              0.07030122821269978,
+              0.04663608662783736,
+              0.03260166271015113,
+              0.0247505891100123,
+              0.013039800443564868,
+              0.010829669138470568,
+              0.008000481313005329,
+              0.005427119886130997,
+              0.0036598841903503244,
+              0.0025052777939345407,
+              0.0022840049113105106,
+              0.002236313870575635,
+              0.00028334667164761076,
+              0.00027756704509628705,
+              0.00020613818576781974,
+              0.0001903069829400321,
+              0.00016075412274710378,
+              0.00012589130365906235,
+              9.03450222520954e-05,
+              7.332887786198196e-05,
+              5.577828825914449e-05
+            ],
+            "condition_number": 395913.3441788112,
+            "num_coefficients": 28,
+            "scaled_condition_number": 1277.9159557787227,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -23.23719626230669,
+        "nmse_validation_db": -23.103574364314724,
+        "normalized_error_linear": 0.004893758836212473,
+        "train_error_linear": 0.004745482473654194,
+        "progress_fraction": null,
+        "structural_complexity": 28.0,
+        "hardware": {
+          "num_parameters": 28,
+          "complex_multipliers": 28,
+          "real_multipliers": 90,
+          "complex_adders": 27,
+          "real_adders": 9,
+          "delay_elements": 8,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 1296,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 18
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -23.101139860585786,
+        "bic_num_coefficients": 28
+      },
+      "{\"M\":8,\"P\":9}": {
+        "candidate_id": "{\"M\":8,\"P\":9}",
+        "model_name": "EMP",
+        "config": {
+          "P": 9,
+          "M": 8
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 9,
+            "M": 8
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.5607014829293906,
+                  0.5648427470203149
+                ]
+              },
+              {
+                "__complex__": [
+                  17.77513489623349,
+                  12.244389934496343
+                ]
+              },
+              {
+                "__complex__": [
+                  -31.044080404166564,
+                  -2.555557255952738
+                ]
+              },
+              {
+                "__complex__": [
+                  8.152660223118625,
+                  -2.2752859966969887
+                ]
+              },
+              {
+                "__complex__": [
+                  2.8757853240783775,
+                  0.33111252241457323
+                ]
+              },
+              {
+                "__complex__": [
+                  -4.944616583218983,
+                  -1.3474895995810594
+                ]
+              },
+              {
+                "__complex__": [
+                  5.324485762992354,
+                  -0.3628572222528554
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.1641519223319189,
+                  -0.8028798050296331
+                ]
+              },
+              {
+                "__complex__": [
+                  -0.45909734831195853,
+                  0.9884576562306513
+                ]
+              },
+              {
+                "__complex__": [
+                  -1.6544480428304122,
+                  -0.07136246025259897
+                ]
+              },
+              {
+                "__complex__": [
+                  -152.7021717843124,
+                  -713.0584867687401
+                ]
+              },
+              {
+                "__complex__": [
+                  773.7719558874967,
+                  -29.924338436262428
+                ]
+              },
+              {
+                "__complex__": [
+                  -175.29119940535128,
+                  108.94625541485871
+                ]
+              },
+              {
+                "__complex__": [
+                  -198.05874491803402,
+                  -50.2692040423037
+                ]
+              },
+              {
+                "__complex__": [
+                  303.3952652858725,
+                  42.64126894299285
+                ]
+              },
+              {
+                "__complex__": [
+                  -304.39875914343264,
+                  50.17686523811117
+                ]
+              },
+              {
+                "__complex__": [
+                  15.565600579389894,
+                  4.443007029858328
+                ]
+              },
+              {
+                "__complex__": [
+                  67.30279865427781,
+                  -37.61266140384102
+                ]
+              },
+              {
+                "__complex__": [
+                  30.462299293448105,
+                  9.748305557553559
+                ]
+              },
+              {
+                "__complex__": [
+                  2334.4402572284957,
+                  8400.064912085865
+                ]
+              },
+              {
+                "__complex__": [
+                  -10597.596733085067,
+                  2254.6934126929777
+                ]
+              },
+              {
+                "__complex__": [
+                  2401.9838702310303,
+                  -2359.5008816809973
+                ]
+              },
+              {
+                "__complex__": [
+                  3769.5132358271057,
+                  1435.454212555546
+                ]
+              },
+              {
+                "__complex__": [
+                  -5857.368175739031,
+                  -750.2682809494971
+                ]
+              },
+              {
+                "__complex__": [
+                  5736.86628138755,
+                  -792.6585678328664
+                ]
+              },
+              {
+                "__complex__": [
+                  -742.0445557695793,
+                  20.264305197525672
+                ]
+              },
+              {
+                "__complex__": [
+                  -1130.4553728671226,
+                  537.2742283485973
+                ]
+              },
+              {
+                "__complex__": [
+                  -296.04481428675865,
+                  -216.460631519791
+                ]
+              },
+              {
+                "__complex__": [
+                  -15351.148153099393,
+                  -36180.85869471931
+                ]
+              },
+              {
+                "__complex__": [
+                  58313.41810110491,
+                  -14906.106809864026
+                ]
+              },
+              {
+                "__complex__": [
+                  -21881.73118190227,
+                  15923.766355090023
+                ]
+              },
+              {
+                "__complex__": [
+                  -15491.249895267409,
+                  -12737.01016860457
+                ]
+              },
+              {
+                "__complex__": [
+                  34555.199075066215,
+                  5506.998239962853
+                ]
+              },
+              {
+                "__complex__": [
+                  -35873.9400469668,
+                  3967.1922918024825
+                ]
+              },
+              {
+                "__complex__": [
+                  6900.85243114109,
+                  -94.03754376129105
+                ]
+              },
+              {
+                "__complex__": [
+                  6701.786211880988,
+                  -3483.9775977775353
+                ]
+              },
+              {
+                "__complex__": [
+                  318.1926969367203,
+                  2040.8352884302797
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 37,
+            "singular_values": [
+              22.083368686894524,
+              1.0635373544614384,
+              0.593953129988792,
+              0.49169073053128026,
+              0.31339469618763083,
+              0.17920743659606014,
+              0.11382478261486945,
+              0.07030124592314713,
+              0.04663610453366701,
+              0.03260167267819309,
+              0.024754693154137166,
+              0.013042043032164108,
+              0.010831473533781728,
+              0.008001596197631846,
+              0.005427765315951276,
+              0.003660174979640906,
+              0.0025053843733209157,
+              0.0022840971492327456,
+              0.0022363859247719925,
+              0.0002892214900377432,
+              0.00028347983996861,
+              0.00021026633366648468,
+              0.00019429961348824219,
+              0.0001641007318307835,
+              0.00012833214728774953,
+              9.181834757188758e-05,
+              7.442304000140495e-05,
+              5.646335987768659e-05,
+              7.0076226216115004e-06,
+              6.08958673400308e-06,
+              5.297335967434862e-06,
+              4.7364436150659225e-06,
+              4.430258660441008e-06,
+              3.630103021741934e-06,
+              3.1443548700759525e-06,
+              2.434124761632895e-06,
+              1.7794032114287572e-06
+            ],
+            "condition_number": 12410547.842702197,
+            "num_coefficients": 37,
+            "scaled_condition_number": 5420.679613003423,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -23.461427790797185,
+        "nmse_validation_db": -23.270313885835492,
+        "normalized_error_linear": 0.00470943287795135,
+        "train_error_linear": 0.004506685179599439,
+        "progress_fraction": null,
+        "structural_complexity": 37.0,
+        "hardware": {
+          "num_parameters": 37,
+          "complex_multipliers": 37,
+          "real_multipliers": 117,
+          "complex_adders": 36,
+          "real_adders": 9,
+          "delay_elements": 8,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 1620,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 27
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -23.28163897423742,
+        "bic_num_coefficients": 37
+      },
+      "{\"M\":8,\"P\":11}": {
+        "candidate_id": "{\"M\":8,\"P\":11}",
+        "model_name": "EMP",
+        "config": {
+          "P": 11,
+          "M": 8
+        },
+        "model": {
+          "model_name": "EMP",
+          "config": {
+            "P": 11,
+            "M": 8
+          },
+          "coefficients": {
+            "__ndarray__": true,
+            "dtype": "complex128",
+            "values": [
+              {
+                "__complex__": [
+                  0.6629882398421062,
+                  0.28524939682064204
+                ]
+              },
+              {
+                "__complex__": [
+                  17.481954044854774,
+                  50.36211846760173
+                ]
+              },
+              {
+                "__complex__": [
+                  -53.98922704150067,
+                  2.118760149879787
+                ]
+              },
+              {
+                "__complex__": [
+                  18.700858606204367,
+                  4.463003761438506
+                ]
+              },
+              {
+                "__complex__": [
+                  -6.602116126710696,
+                  -5.6316289765731256
+                ]
+              },
+              {
+                "__complex__": [
+                  7.16041817083932,
+                  -0.018584488022072434
+                ]
+              },
+              {
+                "__complex__": [
+                  -7.5639303905298725,
+                  1.7171928089175876
+                ]
+              },
+              {
+                "__complex__": [
+                  6.347374712059352,
+                  -3.165010935590474
+                ]
+              },
+              {
+                "__complex__": [
+                  2.164209028421723,
+                  -0.49028580187651843
+                ]
+              },
+              {
+                "__complex__": [
+                  -4.669588128166684,
+                  0.1818539676218526
+                ]
+              },
+              {
+                "__complex__": [
+                  -195.96781373845195,
+                  -2722.286528399433
+                ]
+              },
+              {
+                "__complex__": [
+                  2185.8962332477645,
+                  -306.9411359937544
+                ]
+              },
+              {
+                "__complex__": [
+                  -883.4913853329546,
+                  -344.758764656857
+                ]
+              },
+              {
+                "__complex__": [
+                  470.8390851513312,
+                  380.7927396688815
+                ]
+              },
+              {
+                "__complex__": [
+                  -560.9274926106576,
+                  -60.44707557408196
+                ]
+              },
+              {
+                "__complex__": [
+                  582.7915785735405,
+                  -40.351684242737576
+                ]
+              },
+              {
+                "__complex__": [
+                  -473.64478149543726,
+                  145.57702200193714
+                ]
+              },
+              {
+                "__complex__": [
+                  -43.379235671823494,
+                  59.9260777665999
+                ]
+              },
+              {
+                "__complex__": [
+                  191.45611778173944,
+                  -8.524341731414202
+                ]
+              },
+              {
+                "__complex__": [
+                  4562.7223251591295,
+                  54535.069133745565
+                ]
+              },
+              {
+                "__complex__": [
+                  -46571.89332946142,
+                  8604.542895122659
+                ]
+              },
+              {
+                "__complex__": [
+                  21847.548059238605,
+                  9862.887375541504
+                ]
+              },
+              {
+                "__complex__": [
+                  -15076.88113296578,
+                  -10462.911146203214
+                ]
+              },
+              {
+                "__complex__": [
+                  18093.813580820977,
+                  1881.916423788428
+                ]
+              },
+              {
+                "__complex__": [
+                  -17747.85554539664,
+                  987.9496401443512
+                ]
+              },
+              {
+                "__complex__": [
+                  12551.532302836393,
+                  -3455.104942155122
+                ]
+              },
+              {
+                "__complex__": [
+                  1100.6913200578892,
+                  -1852.908836755348
+                ]
+              },
+              {
+                "__complex__": [
+                  -4112.195662073685,
+                  218.22905445364756
+                ]
+              },
+              {
+                "__complex__": [
+                  -50193.976759793375,
+                  -514130.99518865754
+                ]
+              },
+              {
+                "__complex__": [
+                  461420.1415055736,
+                  -77302.85072502999
+                ]
+              },
+              {
+                "__complex__": [
+                  -256416.95434820844,
+                  -127727.65799808578
+                ]
+              },
+              {
+                "__complex__": [
+                  217826.99294398274,
+                  130054.2114621489
+                ]
+              },
+              {
+                "__complex__": [
+                  -255059.69846529418,
+                  -24186.68345165644
+                ]
+              },
+              {
+                "__complex__": [
+                  234998.59053490538,
+                  -10641.214852188788
+                ]
+              },
+              {
+                "__complex__": [
+                  -148953.92971561747,
+                  37604.00926323797
+                ]
+              },
+              {
+                "__complex__": [
+                  -12677.182299574777,
+                  20922.159239242035
+                ]
+              },
+              {
+                "__complex__": [
+                  40998.91992732435,
+                  -2133.882010725962
+                ]
+              },
+              {
+                "__complex__": [
+                  175189.88914451757,
+                  1836983.612359153
+                ]
+              },
+              {
+                "__complex__": [
+                  -1649362.6221632836,
+                  212834.89189542833
+                ]
+              },
+              {
+                "__complex__": [
+                  1034643.253603014,
+                  616900.7457016124
+                ]
+              },
+              {
+                "__complex__": [
+                  -1061195.0174703028,
+                  -619746.9402312381
+                ]
+              },
+              {
+                "__complex__": [
+                  1283981.3504678553,
+                  125853.04345516923
+                ]
+              },
+              {
+                "__complex__": [
+                  -1147043.2810182774,
+                  35057.67867270823
+                ]
+              },
+              {
+                "__complex__": [
+                  668851.1429006923,
+                  -146981.2527205303
+                ]
+              },
+              {
+                "__complex__": [
+                  52524.00680184518,
+                  -87772.9041344059
+                ]
+              },
+              {
+                "__complex__": [
+                  -157009.55799187068,
+                  11846.351891613844
+                ]
+              }
+            ]
+          },
+          "diagnostics": {
+            "rank": 46,
+            "singular_values": [
+              22.083368687183928,
+              1.0635373565480553,
+              0.5939531313407407,
+              0.4916907320600132,
+              0.3133946967943632,
+              0.17920743670166736,
+              0.11382478279057863,
+              0.07030124612606141,
+              0.0466361047051538,
+              0.03260167275746528,
+              0.024754735241631354,
+              0.013042067323630223,
+              0.010831493431620345,
+              0.008001607619064639,
+              0.005427771647021182,
+              0.0036601773089108497,
+              0.0025053851145814005,
+              0.0022840977327295018,
+              0.002236386288865556,
+              0.00028933475125405514,
+              0.00028359626944792914,
+              0.0002103452669075545,
+              0.0001943780421505521,
+              0.00016416639055732383,
+              0.00012837702485654347,
+              9.184149623726018e-05,
+              7.443880477874699e-05,
+              5.64714262337803e-05,
+              7.222730114317159e-06,
+              6.274554635745305e-06,
+              5.455783698981565e-06,
+              4.8813620880098655e-06,
+              4.570156277871433e-06,
+              3.744671851060017e-06,
+              3.2410572557440242e-06,
+              2.502459172532773e-06,
+              1.8247744836714406e-06,
+              1.5453288516421833e-07,
+              1.3100393790561121e-07,
+              1.0993639036193612e-07,
+              1.0855948821222852e-07,
+              1.0199435961424968e-07,
+              8.781216847815715e-08,
+              7.866068310429582e-08,
+              6.913731299833516e-08,
+              5.954058195044634e-08
+            ],
+            "condition_number": 370896084.0450499,
+            "num_coefficients": 46,
+            "scaled_condition_number": 26594.12842423455,
+            "stable": true,
+            "reason": ""
+          },
+          "lut_values": null,
+          "lut_nodes": null,
+          "lut_edges": null,
+          "basis_terms": [
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 0,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 2,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 4,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 6,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 8,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 0,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 1,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 2,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 3,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 4,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 5,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 6,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 7,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            },
+            {
+              "kind": "envelope",
+              "signal_delay": 0,
+              "envelope_delay": 8,
+              "envelope_power": 10,
+              "direct_delays": [],
+              "conjugate_delays": []
+            }
+          ]
+        },
+        "nmse_train_db": -23.636230096443835,
+        "nmse_validation_db": -23.42457658244019,
+        "normalized_error_linear": 0.004545088476150361,
+        "train_error_linear": 0.004328894386923869,
+        "progress_fraction": null,
+        "structural_complexity": 46.0,
+        "hardware": {
+          "num_parameters": 46,
+          "complex_multipliers": 46,
+          "real_multipliers": 144,
+          "complex_adders": 45,
+          "real_adders": 9,
+          "delay_elements": 8,
+          "num_luts": 0,
+          "lut_entries": 0,
+          "memory_bits": 1944,
+          "cycles_per_sample": 1,
+          "clock_multiplier": 1.0,
+          "assumptions": [
+            "Estimación analítica de datapath paralelo; no síntesis ni cierre temporal.",
+            "Contadores reales excluyen los operadores ya contados como complejos.",
+            "Multiplicación compleja convencional equivale a 4 reales + 2 sumas reales.",
+            "Palabra real 18 bits; coeficiente complejo 2 palabras.",
+            "No incluye interfaces, control, normalización y/G ni cuantización de coeficientes.",
+            "Comparte potencias de envolvente por retardo; productos Volterra no comparten subexpresiones.",
+            "Adelanto GMP causalizable con latencia de 0 muestras."
+          ],
+          "auxiliary_operations": {
+            "envelope_power_multiplies": 36
+          }
+        },
+        "marginal_efficiency": null,
+        "pareto_optimal": true,
+        "valid": true,
+        "failure": "",
+        "bic_score_db": -23.41270886504521,
+        "bic_num_coefficients": 46
+      }
+    },
+    "iterations": [
+      {
+        "iteration": 1,
+        "current": "{\"M\":0,\"P\":1}",
+        "candidates": [
+          "{\"M\":0,\"P\":3}",
+          "{\"M\":1,\"P\":3}",
+          "{\"M\":2,\"P\":3}",
+          "{\"M\":3,\"P\":3}",
+          "{\"M\":4,\"P\":3}",
+          "{\"M\":5,\"P\":3}",
+          "{\"M\":6,\"P\":3}",
+          "{\"M\":7,\"P\":3}",
+          "{\"M\":8,\"P\":3}"
+        ],
+        "chosen": "{\"M\":8,\"P\":3}",
+        "reason": "lower_identification_bic",
+        "changes": [
+          {
+            "candidate": "{\"M\":0,\"P\":3}",
+            "delta_coefficients": 1,
+            "delta_nmse_train_db": -9.637400262113113,
+            "required_improvement_db": 0.004859157204317927,
+            "delta_bic_score_db": -9.632541104908794,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":1,\"P\":3}",
+            "delta_coefficients": 2,
+            "delta_nmse_train_db": -10.659112210418193,
+            "required_improvement_db": 0.009718314408635855,
+            "delta_bic_score_db": -10.649393896009558,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":2,\"P\":3}",
+            "delta_coefficients": 3,
+            "delta_nmse_train_db": -10.760552460713868,
+            "required_improvement_db": 0.014577471612953783,
+            "delta_bic_score_db": -10.745974989100914,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":3,\"P\":3}",
+            "delta_coefficients": 4,
+            "delta_nmse_train_db": -10.78028907671534,
+            "required_improvement_db": 0.01943662881727171,
+            "delta_bic_score_db": -10.760852447898069,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":4,\"P\":3}",
+            "delta_coefficients": 5,
+            "delta_nmse_train_db": -10.790645278130649,
+            "required_improvement_db": 0.024295786021589636,
+            "delta_bic_score_db": -10.76634949210906,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":5,\"P\":3}",
+            "delta_coefficients": 6,
+            "delta_nmse_train_db": -10.79611467618288,
+            "required_improvement_db": 0.029154943225907566,
+            "delta_bic_score_db": -10.766959732956972,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":6,\"P\":3}",
+            "delta_coefficients": 7,
+            "delta_nmse_train_db": -10.800423420254464,
+            "required_improvement_db": 0.03401410043022549,
+            "delta_bic_score_db": -10.76640931982424,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":7,\"P\":3}",
+            "delta_coefficients": 8,
+            "delta_nmse_train_db": -10.807602094673157,
+            "required_improvement_db": 0.03887325763454342,
+            "delta_bic_score_db": -10.768728837038614,
+            "bic_improves": true
+          },
+          {
+            "candidate": "{\"M\":8,\"P\":3}",
+            "delta_coefficients": 9,
+            "delta_nmse_train_db": -10.818583759155898,
+            "required_improvement_db": 0.043732414838861346,
+            "delta_bic_score_db": -10.774851344317037,
+            "bic_improves": true
+          }
+        ]
+      },
+      {
+        "iteration": 2,
+        "current": "{\"M\":8,\"P\":3}",
+        "candidates": [
+          "{\"M\":8,\"P\":5}"
+        ],
+        "chosen": "{\"M\":8,\"P\":5}",
+        "reason": "lower_identification_bic",
+        "changes": [
+          {
+            "candidate": "{\"M\":8,\"P\":5}",
+            "delta_coefficients": 9,
+            "delta_nmse_train_db": -0.5505963873511783,
+            "required_improvement_db": 0.043732414838861346,
+            "delta_bic_score_db": -0.506863972512317,
+            "bic_improves": true
+          }
+        ]
+      },
+      {
+        "iteration": 3,
+        "current": "{\"M\":8,\"P\":5}",
+        "candidates": [
+          "{\"M\":8,\"P\":7}"
+        ],
+        "chosen": "{\"M\":8,\"P\":7}",
+        "reason": "lower_identification_bic",
+        "changes": [
+          {
+            "candidate": "{\"M\":8,\"P\":7}",
+            "delta_coefficients": 9,
+            "delta_nmse_train_db": -0.08667462149100388,
+            "required_improvement_db": 0.043732414838861346,
+            "delta_bic_score_db": -0.042942206652142545,
+            "bic_improves": true
+          }
+        ]
+      },
+      {
+        "iteration": 4,
+        "current": "{\"M\":8,\"P\":7}",
+        "candidates": [
+          "{\"M\":8,\"P\":9}"
+        ],
+        "chosen": "{\"M\":8,\"P\":9}",
+        "reason": "lower_identification_bic",
+        "changes": [
+          {
+            "candidate": "{\"M\":8,\"P\":9}",
+            "delta_coefficients": 9,
+            "delta_nmse_train_db": -0.2242315284904963,
+            "required_improvement_db": 0.043732414838861346,
+            "delta_bic_score_db": -0.18049911365163496,
+            "bic_improves": true
+          }
+        ]
+      },
+      {
+        "iteration": 5,
+        "current": "{\"M\":8,\"P\":9}",
+        "candidates": [
+          "{\"M\":8,\"P\":11}"
+        ],
+        "chosen": "{\"M\":8,\"P\":11}",
+        "reason": "lower_identification_bic",
+        "changes": [
+          {
+            "candidate": "{\"M\":8,\"P\":11}",
+            "delta_coefficients": 9,
+            "delta_nmse_train_db": -0.17480230564665164,
+            "required_improvement_db": 0.043732414838861346,
+            "delta_bic_score_db": -0.1310698908077903,
+            "bic_improves": true
+          }
+        ]
+      }
+    ],
+    "selected": "{\"M\":8,\"P\":11}",
+    "stop_reason": "search_limit_reached",
+    "notes": [
+      "Becerra et al. 2020, DOI 10.1109/LMWC.2020.3027878, eqs. 6,9,13.",
+      "BIC uses identification/training RSS and independent fitted complex coefficients; validation is diagnostic.",
+      "Greedy structure search: a local stopping decision, not proof of global optimality.",
+      "The RSS form assumes zero-mean residuals; correlated/periodic IQ samples may affect BIC interpretation."
+    ],
+    "stopping_rule": "bic",
+    "identification_samples": 8730,
+    "bic_penalty_db_per_coefficient": 0.004859157204317927,
+    "selected_bic_score_db": -23.41270886504521,
+    "boundary_reached": true
+  }
+}

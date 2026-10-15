@@ -1,0 +1,4 @@
+simulator lang=spectre
+// Replace paths with absolute paths on the Cadence server. Disable W0 first.
+V_I_DPD (I_IN 0) vsource type=pwl file="/ABSOLUTE/SERVER/PATH/I_DPD.txt"
+V_Q_DPD (Q_IN 0) vsource type=pwl file="/ABSOLUTE/SERVER/PATH/Q_DPD.txt"

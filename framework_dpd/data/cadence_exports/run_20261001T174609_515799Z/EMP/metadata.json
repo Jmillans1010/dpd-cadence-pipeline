@@ -1,0 +1,73 @@
+{
+  "model": "EMP",
+  "config": {
+    "P": 11,
+    "M": 8
+  },
+  "backend": "native",
+  "model_sha256": "2951ccbfaa796b433b7f568d2b6519464c9598df88aa2f94bf2f328d31568b19",
+  "input_sha256": "c208c5a79fd6bde27e580a401d6f8aaeb39a80eb617766dac701b7fac67b75bc",
+  "direction": "F(x), no y/G division",
+  "source_time_origin_s": 7.999999999999999e-09,
+  "export_time_origin_s": 0.0,
+  "first_original_index": 0,
+  "last_original_index": 8765,
+  "boundary": "zero_pad",
+  "past_samples": 8,
+  "future_samples": 0,
+  "offline_lookahead_s": 0.0,
+  "streaming_latency_needed_samples": 0,
+  "boundary_affected_output_indices": [
+    0,
+    8,
+    8766,
+    8766
+  ],
+  "sampling_rate_hz": 3999999999.9996996,
+  "num_samples": 8766,
+  "voltage_scale": 1.0,
+  "source_units": "V, user confirmed; no RMS or peak normalization",
+  "original_stats": {
+    "peak_I_V": 0.2582089384611643,
+    "peak_Q_V": 0.2583508587934307,
+    "peak_envelope_V": 0.3636453020286369,
+    "complex_rms_V": 0.2238013391906849,
+    "mean_square_V2": 0.050087039423544,
+    "papr_db": 4.216306006017021
+  },
+  "dpd_stats": {
+    "peak_I_V": 1.352991755969088,
+    "peak_Q_V": 0.8667506848285261,
+    "peak_envelope_V": 1.492381768243518,
+    "complex_rms_V": 0.2408515963387969,
+    "mean_square_V2": 0.058009491458946766,
+    "papr_db": 15.842608114065246
+  },
+  "status": "exported_not_simulated",
+  "export": {
+    "num_samples": 8766,
+    "pwl_points": 8766,
+    "sampling_rate_hz": 3999999999.9996996,
+    "sampling_period_s": 2.500000000000188e-10,
+    "voltage_scale": 1.0,
+    "max_abs_voltage": 2.0,
+    "interpolation": "linear",
+    "transition_s": null,
+    "end_time_s": 2.1912500000001647e-06,
+    "end_behavior": "hold final voltage; no implicit repeat",
+    "I_file": "I_DPD.txt",
+    "Q_file": "Q_DPD.txt",
+    "units": {
+      "time": "s",
+      "amplitude": "V"
+    },
+    "statistics": {
+      "peak_I_V": 1.352991755969088,
+      "peak_Q_V": 0.8667506848285261,
+      "peak_envelope_V": 1.492381768243518,
+      "complex_rms_V": 0.2408515963387969,
+      "mean_square_V2": 0.058009491458946766,
+      "papr_db": 15.842608114065246
+    }
+  }
+}

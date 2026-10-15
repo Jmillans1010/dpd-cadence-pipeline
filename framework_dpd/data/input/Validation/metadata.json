@@ -1,0 +1,665 @@
+{
+  "simulation_config": {
+    "simulator": "spectre",
+    "raw_statements": {
+      "simulator": {
+        "lang": "spectre"
+      },
+      "I1": {
+        "I_gain": "0",
+        "Q_gain": "0",
+        "I_cpdb": "200",
+        "Q_cpdb": "200",
+        "rin": "50",
+        "rout": "50",
+        "nf": "0",
+        "quad_error": "0",
+        "flo": "240e9"
+      },
+      "V0": {
+        "dc": "3.3",
+        "type": "dc"
+      },
+      "V3": {
+        "type": "dc"
+      },
+      "W0": {
+        "standard": "MSource",
+        "dbm": "0",
+        "r": "50",
+        "framenumber": "24",
+        "oversample": "4",
+        "snr": "60",
+        "MSource_Frequency": "240G",
+        "MSource_DataRate": "1G",
+        "MSource_ModType": "QAM16",
+        "MSource_SymbolNum": "512",
+        "MSource_DataType": "PN9",
+        "MSource_FilterType": "None",
+        "MSource_OFDMType": "No"
+      },
+      "I7": {
+        "rin": "50",
+        "rout": "100",
+        "loss": "0"
+      },
+      "I2": {
+        "rin": "50",
+        "rout": "100",
+        "loss": "0"
+      },
+      "I8": {
+        "I_gain": "0",
+        "Q_gain": "0",
+        "I_ip3": "200",
+        "Q_ip3": "200",
+        "rin": "50",
+        "rout": "50",
+        "nf": "0",
+        "quad_error": "0",
+        "flo": "240e9"
+      },
+      "PORT1": {
+        "r": "50",
+        "type": "sine"
+      },
+      "PORTI": {
+        "r": "50",
+        "type": "sine"
+      },
+      "I18": {
+        "r1": "50",
+        "r2": "50",
+        "fc": "3e9",
+        "loss": "0"
+      },
+      "I14": {
+        "r1": "50",
+        "r2": "50",
+        "fc": "3e9",
+        "loss": "0"
+      },
+      "I13": {
+        "r1": "50",
+        "r2": "50",
+        "f0": "240e9",
+        "bw": "0.1",
+        "loss": "0"
+      },
+      "simulatorOptions": {
+        "psfversion": "1.4.0",
+        "reltol": "1e-3",
+        "vabstol": "1e-6",
+        "iabstol": "1e-12",
+        "temp": "27",
+        "tnom": "27",
+        "scalem": "1.0",
+        "scale": "1.0",
+        "gmin": "1e-12",
+        "rforce": "1",
+        "maxnotes": "5",
+        "maxwarns": "5",
+        "digits": "5",
+        "cols": "80",
+        "pivrel": "1e-3",
+        "sensfile": "../psf/sens.output",
+        "checklimitdest": "psf",
+        "ignorezerovar": "yes"
+      },
+      "tran": {
+        "stop": "2.2u",
+        "errpreset": "conservative",
+        "outputstart": "8n",
+        "maxstep": "100f",
+        "write": "spectre.ic",
+        "writefinal": "spectre.fc",
+        "annotate": "status",
+        "strobeperiod": "250p",
+        "strobeoutput": "strobeonly",
+        "maxiters": "5"
+      },
+      "finalTimeOP": {
+        "what": "oppoint",
+        "where": "rawfile"
+      },
+      "modelParameter": {
+        "what": "models",
+        "where": "rawfile"
+      },
+      "element": {
+        "what": "inst",
+        "where": "rawfile"
+      },
+      "outputParameter": {
+        "what": "output",
+        "where": "rawfile"
+      },
+      "designParamVals": {
+        "what": "parameters",
+        "where": "rawfile"
+      },
+      "primitives": {
+        "what": "primitives",
+        "where": "rawfile"
+      },
+      "subckts": {
+        "what": "subckts",
+        "where": "rawfile"
+      },
+      "saveOptions": {
+        "save": "allpub",
+        "currents": "all",
+        "subcktprobelvl": "5",
+        "saveahdlvars": "all"
+      }
+    },
+    "includes_not_expanded": [
+      "include \"$IHP_TECH/tech/SG13_MOS/library/spectreG3/cornerMOSlv_psp.scs\" section=tt",
+      "include \"$IHP_TECH/tech/SG13_MOS/library/spectreG3/cornerMOShv_psp.scs\" section=tt",
+      "include \"$IHP_TECH/tech/SG13G3_PASSIVES/spectre/SG13_cornerRES.scs\" section=typ",
+      "include \"$IHP_TECH/tech/SG13G3_PASSIVES/spectre/SG13_cornerCAP.scs\" section=typ",
+      "include \"$IHP_TECH/tech/SG13G3_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs\" section=tt",
+      "include \"$IHP_TECH/tech/SG13G3_PASSIVES/spectre/SG13_diodes.lib\"",
+      "include \"$IHP_TECH/tech/SG13G3_HBT/VBIC/spectre/SG13G3_cornerBIP_vbic.scs\" section=typ",
+      "include \"$IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib\"",
+      "ahdl_include \"filter/dpd_testbench_I18.va\"",
+      "ahdl_include \"filter/dpd_testbench_I14.va\"",
+      "ahdl_include \"filter/dpd_testbench_I13.va\"",
+      "ahdl_include \"/sw/eda/cadence/2021-22/RHELx86/IC_6.1.8.210/tools/dfII/samples/artist/rfLib/IQ_modulator/veriloga/veriloga.va\"",
+      "ahdl_include \"/sw/eda/cadence/2021-22/RHELx86/IC_6.1.8.210/tools/dfII/samples/artist/rfLib/balun/veriloga/veriloga.va\"",
+      "ahdl_include \"/sw/eda/cadence/2021-22/RHELx86/IC_6.1.8.210/tools/dfII/samples/artist/rfLib/IQ_demodulator/veriloga/veriloga.va\"",
+      "ahdl_include \"/sw/eda/cadence/2021-22/RHELx86/IC_6.1.8.210/tools/dfII/samples/artist/rfLib/butterworth_lp/veriloga/veriloga.va\"",
+      "ahdl_include \"/sw/eda/cadence/2021-22/RHELx86/IC_6.1.8.210/tools/dfII/samples/artist/rfLib/butterworth_bp/veriloga/veriloga.va\""
+    ],
+    "stop_s": 2.2e-06,
+    "output_start_s": 8e-09,
+    "strobe_period_s": 2.5e-10,
+    "max_step_s": 1e-13,
+    "strobe_output": "strobeonly",
+    "errpreset": "conservative"
+  },
+  "signal_config": {
+    "modulation": "QAM16",
+    "carrier_frequency_hz": 240000000000.0,
+    "source_data_rate_value": 1000000000.0,
+    "source_oversample": 4.0,
+    "source_symbol_count": 512.0,
+    "data_type": "PN9",
+    "source_filter": "None",
+    "source_level_dbm": 0.0,
+    "source_impedance_ohm": 50.0,
+    "samples_per_symbol": 16,
+    "samples_per_symbol_status": "unverified"
+  },
+  "processing": {
+    "schema_version": "0.1",
+    "processor_version": "0.1.0",
+    "created_at_utc": "2026-09-30T20:45:35.499224+00:00",
+    "python_version": "3.14.0",
+    "numpy_version": "2.5.3",
+    "sources": [
+      {
+        "role": "I_in",
+        "path": "data/input/I_in_training.csv",
+        "bytes": 365785,
+        "sha256": "4e22d8db273713c246ccb504cd17538a2fd8dba54680e7d15ee2748f6ba67f50"
+      },
+      {
+        "role": "Q_in",
+        "path": "data/input/Q_in_training.csv",
+        "bytes": 366002,
+        "sha256": "e1e431a013f03347bfe289d4f188cb5bf75be2de4367d271ad29b9247011b9c5"
+      },
+      {
+        "role": "I_out",
+        "path": "data/input/I_out_training.csv",
+        "bytes": 364135,
+        "sha256": "3261f1728efe039bbc0f9a3a78fba2f9d0b89313c02fa878abb761c1823c6591"
+      },
+      {
+        "role": "Q_out",
+        "path": "data/input/Q_out_training.csv",
+        "bytes": 363699,
+        "sha256": "cd6cba26705dadbfc27ea94f341ed11cfd845867bad4cbba9b97cbda74ee0ec7"
+      },
+      {
+        "role": "netlist",
+        "path": "data/input/input",
+        "bytes": 6402,
+        "sha256": "3466d56f19a4ec9733bb937f0133cf5ae330884dae90379fb967d70c5a470b3d"
+      }
+    ],
+    "field_provenance": {
+      "simulation_config.stop_s": {
+        "source": "netlist",
+        "parameter": "tran.stop",
+        "raw": "2.2u"
+      },
+      "simulation_config.output_start_s": {
+        "source": "netlist",
+        "parameter": "tran.outputstart",
+        "raw": "8n"
+      },
+      "simulation_config.strobe_period_s": {
+        "source": "netlist",
+        "parameter": "tran.strobeperiod",
+        "raw": "250p"
+      },
+      "simulation_config.max_step_s": {
+        "source": "netlist",
+        "parameter": "tran.maxstep",
+        "raw": "100f"
+      },
+      "simulation_config.strobe_output": {
+        "source": "netlist",
+        "parameter": "tran.strobeoutput",
+        "raw": "strobeonly"
+      },
+      "simulation_config.errpreset": {
+        "source": "netlist",
+        "parameter": "tran.errpreset",
+        "raw": "conservative"
+      },
+      "signal_config.modulation": {
+        "source": "netlist",
+        "parameter": "W0.MSource_ModType",
+        "raw": "QAM16"
+      },
+      "signal_config.carrier_frequency_hz": {
+        "source": "netlist",
+        "parameter": "W0.MSource_Frequency",
+        "raw": "240G"
+      },
+      "signal_config.source_data_rate_value": {
+        "source": "netlist",
+        "parameter": "W0.MSource_DataRate",
+        "raw": "1G"
+      },
+      "signal_config.source_oversample": {
+        "source": "netlist",
+        "parameter": "W0.oversample",
+        "raw": "4"
+      },
+      "signal_config.source_symbol_count": {
+        "source": "netlist",
+        "parameter": "W0.MSource_SymbolNum",
+        "raw": "512"
+      },
+      "signal_config.data_type": {
+        "source": "netlist",
+        "parameter": "W0.MSource_DataType",
+        "raw": "PN9"
+      },
+      "signal_config.source_filter": {
+        "source": "netlist",
+        "parameter": "W0.MSource_FilterType",
+        "raw": "None"
+      },
+      "signal_config.source_level_dbm": {
+        "source": "netlist",
+        "parameter": "W0.dbm",
+        "raw": "0"
+      },
+      "signal_config.source_impedance_ohm": {
+        "source": "netlist",
+        "parameter": "W0.r",
+        "raw": "50"
+      },
+      "signal_config.samples_per_symbol": {
+        "source": "processing_config",
+        "source_oversample_is_not_exported_sps": true
+      }
+    },
+    "configuration": {
+      "input_files": {
+        "I_in": "data/input/I_in_training.csv",
+        "Q_in": "data/input/Q_in_training.csv",
+        "I_out": "data/input/I_out_training.csv",
+        "Q_out": "data/input/Q_out_training.csv"
+      },
+      "netlist": "data/input/input",
+      "previous_metadata": null,
+      "output_directory": "data/output",
+      "manual_metadata": {},
+      "samples_per_symbol": 16,
+      "samples_per_symbol_verified": false,
+      "source_data_rate_is_bit_rate": false,
+      "additional_initial_crop_s": 0.0,
+      "remove_dc": false,
+      "time_atol_s": 1e-18,
+      "time_rtol": 1e-05,
+      "max_delay_samples": 128,
+      "minimum_overlap_fraction": 0.8,
+      "fractional_refinement": false,
+      "interpolation_half_width": 16,
+      "minimum_symbols": 16,
+      "symbol_phase": null,
+      "phase_tie_tolerance_pp": 1e-10,
+      "plots": true
+    },
+    "sampling_observed": {
+      "sample_period_s": 2.500000000000188e-10,
+      "sample_rate_hz": 3999999999.9996996,
+      "channels": {
+        "input": {
+          "sample_period_s": 2.500000000000188e-10,
+          "maximum_step_error_s": 1.1717402747271578e-15,
+          "first_time_s": 7.999999999999999e-09,
+          "last_time_s": 2.199999999999865e-06,
+          "count": 8769
+        },
+        "output": {
+          "sample_period_s": 2.500000000000188e-10,
+          "maximum_step_error_s": 1.1717402747271578e-15,
+          "first_time_s": 7.999999999999999e-09,
+          "last_time_s": 2.199999999999865e-06,
+          "count": 8769
+        }
+      },
+      "accepted_step_tolerance_s": 2.501000000000188e-15,
+      "maximum_interchannel_grid_drift_s": 0.0
+    },
+    "preprocessing": {
+      "input": {
+        "cropped_samples": 0,
+        "removed_dc_real": 0.0,
+        "removed_dc_imag": 0.0,
+        "first_retained_time_s": 7.999999999999999e-09
+      },
+      "output": {
+        "cropped_samples": 0,
+        "removed_dc_real": 0.0,
+        "removed_dc_imag": 0.0,
+        "first_retained_time_s": 7.999999999999999e-09
+      }
+    },
+    "alignment": {
+      "sign_convention": "y[n] = alpha*x[n-D] => D positive for equal time origins",
+      "search_limit_samples": 128,
+      "minimum_overlap_samples": 7016,
+      "criterion": "maximum_absolute_complex_cross_correlation",
+      "correlation_implementation": "linear_fft_zero_padded",
+      "normalized_correlation_at_integer_peak": 0.9659940637576186,
+      "top_local_peaks": [
+        {
+          "lag": 3,
+          "magnitude": 686.7688068623426
+        },
+        {
+          "lag": -61,
+          "magnitude": 83.24573914948141
+        },
+        {
+          "lag": 68,
+          "magnitude": 74.693651577412
+        },
+        {
+          "lag": 21,
+          "magnitude": 42.5486939695146
+        },
+        {
+          "lag": 99,
+          "magnitude": 38.55881972474418
+        }
+      ],
+      "warnings": [],
+      "aligned_count": 8766,
+      "input_original_interval": [
+        0,
+        8765
+      ],
+      "output_original_interval": [
+        3.0,
+        8768.0
+      ],
+      "integer_delay_samples": 3,
+      "fractional_delay_samples": 0.0,
+      "interpolation": "none",
+      "interpolation_half_width": null,
+      "fractional_estimator": "disabled",
+      "delay_s_method": "median of paired original times; interpolated output time if fractional",
+      "nominal_delay_s": 7.500000000000563e-10,
+      "paired_delay_maximum_deviation_s": 1.2281143937129901e-15,
+      "delay_s": 7.500000000000034e-10
+    },
+    "symbol_selection": {
+      "phase": 6,
+      "samples_per_symbol_used": 16,
+      "candidate_scores": [
+        {
+          "phase": 0,
+          "symbol_count": 547,
+          "evm_percent": 23.514892288408493,
+          "alpha_real": 1.3044366701049086,
+          "alpha_imag": 0.8203270197360476,
+          "status": "valid"
+        },
+        {
+          "phase": 1,
+          "symbol_count": 547,
+          "evm_percent": 24.386810597457618,
+          "alpha_real": 1.2139736064779805,
+          "alpha_imag": 0.8624218741678061,
+          "status": "valid"
+        },
+        {
+          "phase": 2,
+          "symbol_count": 547,
+          "evm_percent": 24.397334959658217,
+          "alpha_real": 1.2234317163538764,
+          "alpha_imag": 0.8732172164525746,
+          "status": "valid"
+        },
+        {
+          "phase": 3,
+          "symbol_count": 547,
+          "evm_percent": 24.442185134832737,
+          "alpha_real": 1.2869547124187786,
+          "alpha_imag": 0.8618643937653532,
+          "status": "valid"
+        },
+        {
+          "phase": 4,
+          "symbol_count": 547,
+          "evm_percent": 23.91087370607795,
+          "alpha_real": 1.3613504187625232,
+          "alpha_imag": 0.8364196794868269,
+          "status": "valid"
+        },
+        {
+          "phase": 5,
+          "symbol_count": 547,
+          "evm_percent": 23.299685144920478,
+          "alpha_real": 1.4055692213961675,
+          "alpha_imag": 0.8124757973804505,
+          "status": "valid"
+        },
+        {
+          "phase": 6,
+          "symbol_count": 547,
+          "evm_percent": 22.970925593671964,
+          "alpha_real": 1.4157085025267393,
+          "alpha_imag": 0.8039167786431444,
+          "status": "valid"
+        },
+        {
+          "phase": 7,
+          "symbol_count": 547,
+          "evm_percent": 23.017551597977594,
+          "alpha_real": 1.3919961843098527,
+          "alpha_imag": 0.8093776008329164,
+          "status": "valid"
+        },
+        {
+          "phase": 8,
+          "symbol_count": 547,
+          "evm_percent": 23.495525880692057,
+          "alpha_real": 1.3359804321432027,
+          "alpha_imag": 0.8269248190697939,
+          "status": "valid"
+        },
+        {
+          "phase": 9,
+          "symbol_count": 547,
+          "evm_percent": 24.324789230032813,
+          "alpha_real": 1.2604663174174153,
+          "alpha_imag": 0.8498947523702637,
+          "status": "valid"
+        },
+        {
+          "phase": 10,
+          "symbol_count": 547,
+          "evm_percent": 24.483980284273184,
+          "alpha_real": 1.2134991969436792,
+          "alpha_imag": 0.8674205986985424,
+          "status": "valid"
+        },
+        {
+          "phase": 11,
+          "symbol_count": 547,
+          "evm_percent": 24.28572670612584,
+          "alpha_real": 1.234436166301934,
+          "alpha_imag": 0.8725012398325204,
+          "status": "valid"
+        },
+        {
+          "phase": 12,
+          "symbol_count": 547,
+          "evm_percent": 23.922455401905765,
+          "alpha_real": 1.3766989387914075,
+          "alpha_imag": 0.8450624722647787,
+          "status": "valid"
+        },
+        {
+          "phase": 13,
+          "symbol_count": 547,
+          "evm_percent": 28.72638299097644,
+          "alpha_real": 1.6331591935026095,
+          "alpha_imag": 0.705843791843555,
+          "status": "valid"
+        },
+        {
+          "phase": 14,
+          "symbol_count": 547,
+          "evm_percent": 39.682642778253616,
+          "alpha_real": 1.6209892454840793,
+          "alpha_imag": 0.5707271350360005,
+          "status": "valid"
+        },
+        {
+          "phase": 15,
+          "symbol_count": 547,
+          "evm_percent": 31.19015917943257,
+          "alpha_real": 1.4505831532415843,
+          "alpha_imag": 0.6197737346916959,
+          "status": "valid"
+        }
+      ],
+      "scope": "same-record fitted EVM; not independent test",
+      "phase_origin": "first sample of aligned waveform"
+    },
+    "evm_configuration": {
+      "reference": "measured_input_times_fitted_alpha",
+      "normalization": "sum_squared_error / sum_squared_fitted_reference",
+      "alpha_real": 1.4157085025267393,
+      "alpha_imag": 0.8039167786431444,
+      "db_status": "finite"
+    },
+    "stage_status": {
+      "validation": {
+        "status": "completed"
+      },
+      "alignment": {
+        "status": "completed"
+      },
+      "symbols_evm": {
+        "status": "completed"
+      },
+      "export": {
+        "status": "completed"
+      }
+    },
+    "warnings": [
+      "Se usan 16 muestras/símbolo; su correspondencia física no está verificada.",
+      "La fase y alfa se ajustan y evalúan sobre los mismos símbolos; EVM de ajuste, no validación independiente."
+    ],
+    "measurement_scope": "entire path between exported I/Q nodes, including any filters/modulators",
+    "output_files": [
+      "aligned_waveform.csv",
+      "correlation_diagnostics.csv",
+      "selected_symbols.csv",
+      "symbol_phase_candidates.csv",
+      "01_cross_correlation.png",
+      "02_aligned_waveforms.png",
+      "03_evm_vs_phase.png",
+      "04_constellations.png",
+      "05_symbol_error.png",
+      "metadata.json",
+      "summary.txt"
+    ],
+    "configuration_file": "config.json"
+  },
+  "statistics": {
+    "raw_input": {
+      "sample_count": 8769,
+      "mean_real": -0.0005096377202184305,
+      "mean_imag": 0.0023430771964241233,
+      "complex_rms": 0.22378194670341112,
+      "peak_magnitude": 0.3636453020286369,
+      "papr_db": 4.217058674893101,
+      "i_min": -0.2581403856597087,
+      "i_max": 0.2582089384611643,
+      "q_min": -0.2580272779668503,
+      "q_max": 0.2583508587934307,
+      "amplitude_units": "CSV values (volts if exported as voltage); no conversion to watts"
+    },
+    "raw_output": {
+      "sample_count": 8769,
+      "mean_real": 0.0047870953188902995,
+      "mean_imag": 0.0071119011381400084,
+      "complex_rms": 0.36234753786514745,
+      "peak_magnitude": 0.4825561827141557,
+      "papr_db": 2.4884513940962156,
+      "i_min": -0.4821378736009608,
+      "i_max": 0.4823366252465177,
+      "q_min": -0.4766360486725374,
+      "q_max": 0.4776915961968664,
+      "amplitude_units": "CSV values (volts if exported as voltage); no conversion to watts"
+    },
+    "aligned_input": {
+      "sample_count": 8766,
+      "mean_real": -0.0004720958975850663,
+      "mean_imag": 0.0023196823154571764,
+      "complex_rms": 0.2238013391906849,
+      "peak_magnitude": 0.3636453020286369,
+      "papr_db": 4.216306006017021,
+      "i_min": -0.2581403856597087,
+      "i_max": 0.2582089384611643,
+      "q_min": -0.2580272779668503,
+      "q_max": 0.2583508587934307,
+      "amplitude_units": "CSV values (volts if exported as voltage); no conversion to watts"
+    },
+    "aligned_output": {
+      "sample_count": 8766,
+      "mean_real": 0.0047626445372213845,
+      "mean_imag": 0.007043310202169906,
+      "complex_rms": 0.36238645481477594,
+      "peak_magnitude": 0.4825561827141557,
+      "papr_db": 2.4875185598887346,
+      "i_min": -0.4821378736009608,
+      "i_max": 0.4823366252465177,
+      "q_min": -0.4766360486725374,
+      "q_max": 0.4776915961968664,
+      "amplitude_units": "CSV values (volts if exported as voltage); no conversion to watts"
+    },
+    "evm_rms_percent": 22.970925593671964,
+    "evm_rms_db": -12.776430098602408,
+    "symbol_count": 547,
+    "waveform_error": {
+      "nmse_fitted_reference_db": -11.448119767907162,
+      "beta_real": 1.3316149478760546,
+      "beta_imag": 0.8206259508192528,
+      "scope": "all aligned samples; separate fit from symbol alpha"
+    }
+  }
+}

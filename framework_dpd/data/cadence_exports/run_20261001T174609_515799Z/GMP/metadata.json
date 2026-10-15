@@ -1,0 +1,85 @@
+{
+  "model": "GMP",
+  "config": {
+    "aligned": {
+      "P": 11,
+      "M": 7
+    },
+    "lagging": {
+      "P": 11,
+      "M": 3,
+      "Q": 3
+    },
+    "leading": {
+      "P": 11,
+      "M": 5,
+      "Q": 3
+    }
+  },
+  "backend": "native",
+  "model_sha256": "cea48b3108e4f4262e0de0c94f48e165f8f8b0e0cf33c764105585f14c834559",
+  "input_sha256": "c208c5a79fd6bde27e580a401d6f8aaeb39a80eb617766dac701b7fac67b75bc",
+  "direction": "F(x), no y/G division",
+  "source_time_origin_s": 7.999999999999999e-09,
+  "export_time_origin_s": 0.0,
+  "first_original_index": 0,
+  "last_original_index": 8765,
+  "boundary": "zero_pad",
+  "past_samples": 7,
+  "future_samples": 3,
+  "offline_lookahead_s": 7.500000000000563e-10,
+  "streaming_latency_needed_samples": 3,
+  "boundary_affected_output_indices": [
+    0,
+    7,
+    8763,
+    8766
+  ],
+  "sampling_rate_hz": 3999999999.9996996,
+  "num_samples": 8766,
+  "voltage_scale": 1.0,
+  "source_units": "V, user confirmed; no RMS or peak normalization",
+  "original_stats": {
+    "peak_I_V": 0.2582089384611643,
+    "peak_Q_V": 0.2583508587934307,
+    "peak_envelope_V": 0.3636453020286369,
+    "complex_rms_V": 0.2238013391906849,
+    "mean_square_V2": 0.050087039423544,
+    "papr_db": 4.216306006017021
+  },
+  "dpd_stats": {
+    "peak_I_V": 1.0261858418390712,
+    "peak_Q_V": 0.8669179544219128,
+    "peak_envelope_V": 1.2895108964035364,
+    "complex_rms_V": 0.2328402917442245,
+    "mean_square_V2": 0.05421460145953558,
+    "papr_db": 14.867337630292752
+  },
+  "status": "exported_not_simulated",
+  "export": {
+    "num_samples": 8766,
+    "pwl_points": 8766,
+    "sampling_rate_hz": 3999999999.9996996,
+    "sampling_period_s": 2.500000000000188e-10,
+    "voltage_scale": 1.0,
+    "max_abs_voltage": 2.0,
+    "interpolation": "linear",
+    "transition_s": null,
+    "end_time_s": 2.1912500000001647e-06,
+    "end_behavior": "hold final voltage; no implicit repeat",
+    "I_file": "I_DPD.txt",
+    "Q_file": "Q_DPD.txt",
+    "units": {
+      "time": "s",
+      "amplitude": "V"
+    },
+    "statistics": {
+      "peak_I_V": 1.0261858418390712,
+      "peak_Q_V": 0.8669179544219128,
+      "peak_envelope_V": 1.2895108964035364,
+      "complex_rms_V": 0.2328402917442245,
+      "mean_square_V2": 0.05421460145953558,
+      "papr_db": 14.867337630292752
+    }
+  }
+}

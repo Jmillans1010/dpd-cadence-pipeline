@@ -1,0 +1,25 @@
+{
+  "description": "Copias independientes del preprocesador; sin actualización automática.",
+  "files": [
+    {
+      "source": "C:\\Users\\josem\\OneDrive\\Desktop\\Praxis_folder_sandbox\\procesador_iq_pa\\data\\output\\training\\aligned_waveform.csv",
+      "copy": "data\\input\\training\\aligned_waveform.csv",
+      "sha256": "2ce723be2fd806d9b6c11eca32a19996ebca582bbff6bb2680d9d2c8477a3293"
+    },
+    {
+      "source": "C:\\Users\\josem\\OneDrive\\Desktop\\Praxis_folder_sandbox\\procesador_iq_pa\\data\\output\\training\\metadata.json",
+      "copy": "data\\input\\training\\metadata.json",
+      "sha256": "77e4ddcd9bd9a3dc8e036a079fe0e6812caa7efeb5d2b1ee960ea1cda69d0ae4"
+    },
+    {
+      "source": "C:\\Users\\josem\\OneDrive\\Desktop\\Praxis_folder_sandbox\\procesador_iq_pa\\data\\output\\Validation\\aligned_waveform.csv",
+      "copy": "data\\input\\Validation\\aligned_waveform.csv",
+      "sha256": "c208c5a79fd6bde27e580a401d6f8aaeb39a80eb617766dac701b7fac67b75bc"
+    },
+    {
+      "source": "C:\\Users\\josem\\OneDrive\\Desktop\\Praxis_folder_sandbox\\procesador_iq_pa\\data\\output\\Validation\\metadata.json",
+      "copy": "data\\input\\Validation\\metadata.json",
+      "sha256": "c6db645176204b9cb838aed2186f4c2c29defd9888b2b145223d4a741025b06a"
+    }
+  ]
+}

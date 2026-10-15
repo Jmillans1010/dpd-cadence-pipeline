@@ -1,0 +1,49 @@
+{
+  "model": "PrunedVolterra",
+  "config": {
+    "P": 7,
+    "M": 3,
+    "D": 2
+  },
+  "backend": "native",
+  "model_sha256": "8146fa7f3c058ee20c85487d7e9abcacac95ea911485a01c7a5563501e7c1b52",
+  "input_sha256": "c208c5a79fd6bde27e580a401d6f8aaeb39a80eb617766dac701b7fac67b75bc",
+  "direction": "F(x), no y/G division",
+  "source_time_origin_s": 7.999999999999999e-09,
+  "export_time_origin_s": 0.0,
+  "first_original_index": 0,
+  "last_original_index": 8765,
+  "boundary": "zero_pad",
+  "past_samples": 3,
+  "future_samples": 0,
+  "offline_lookahead_s": 0.0,
+  "streaming_latency_needed_samples": 0,
+  "boundary_affected_output_indices": [
+    0,
+    3,
+    8766,
+    8766
+  ],
+  "sampling_rate_hz": 3999999999.9996996,
+  "num_samples": 8766,
+  "voltage_scale": 1.0,
+  "source_units": "V, user confirmed; no RMS or peak normalization",
+  "original_stats": {
+    "peak_I_V": 0.2582089384611643,
+    "peak_Q_V": 0.2583508587934307,
+    "peak_envelope_V": 0.3636453020286369,
+    "complex_rms_V": 0.2238013391906849,
+    "mean_square_V2": 0.050087039423544,
+    "papr_db": 4.216306006017021
+  },
+  "dpd_stats": {
+    "peak_I_V": 342.6507722061567,
+    "peak_Q_V": 924.3330661975674,
+    "peak_envelope_V": 985.7997610872462,
+    "complex_rms_V": 10.852274601812592,
+    "mean_square_V2": 117.77186403314664,
+    "papr_db": 39.16535868230557
+  },
+  "status": "export_blocked",
+  "reason": "Voltage limit exceeded: I=342.651 V, Q=924.333 V, limit=2 V. No clipping."
+}

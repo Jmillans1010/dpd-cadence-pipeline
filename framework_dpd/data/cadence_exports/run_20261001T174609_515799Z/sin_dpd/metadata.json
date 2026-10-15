@@ -1,0 +1,28 @@
+{
+  "num_samples": 8766,
+  "pwl_points": 8766,
+  "sampling_rate_hz": 3999999999.9996996,
+  "sampling_period_s": 2.500000000000188e-10,
+  "voltage_scale": 1.0,
+  "max_abs_voltage": 2.0,
+  "interpolation": "linear",
+  "transition_s": null,
+  "end_time_s": 2.1912500000001647e-06,
+  "end_behavior": "hold final voltage; no implicit repeat",
+  "I_file": "I_DPD.txt",
+  "Q_file": "Q_DPD.txt",
+  "units": {
+    "time": "s",
+    "amplitude": "V"
+  },
+  "statistics": {
+    "peak_I_V": 0.2582089384611643,
+    "peak_Q_V": 0.2583508587934307,
+    "peak_envelope_V": 0.3636453020286369,
+    "complex_rms_V": 0.2238013391906849,
+    "mean_square_V2": 0.050087039423544,
+    "papr_db": 4.216306006017021
+  },
+  "purpose": "Baseline without DPD, identical reconstruction and time origin",
+  "source_time_origin_s": 7.999999999999999e-09
+}
